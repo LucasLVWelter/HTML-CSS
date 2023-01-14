@@ -77,7 +77,7 @@ section#transparente1 > p {
 
 section#transparente2 {
     padding: 10vh 0px;
-    background: black url(../imagens/background002.jpg) left top no-repeat fixed;
+    background: black url(../imagens/background002.jpg) left bottom no-repeat fixed;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
 }

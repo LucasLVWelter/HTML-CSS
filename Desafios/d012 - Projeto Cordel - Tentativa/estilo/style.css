@@ -60,7 +60,7 @@ main > section.normal > p {
 
 section#transparente1 {
     padding: 10vh 0px;
-    background: black url(../imagens/background001.jpg) center right no-repeat fixed;
+    background: black url(../imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
 }
@@ -77,7 +77,7 @@ section#transparente1 > p {
 
 section#transparente2 {
     padding: 10vh 0px;
-    background: black url(../imagens/background002.jpg) top right no-repeat fixed;
+    background: black url(../imagens/background002.jpg) left top no-repeat fixed;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.47);
 }

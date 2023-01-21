@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.attribution { 
+    font-size: 11px;  
+    position: absolute;
+    left: 50%;
+    top: 98%;
+    transform: translate(-50%);
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #E1E9FF url(images/pattern-background-desktop.svg) center top no-repeat fixed;
+
+}
+
+h1 {
+    color: #132042;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div#container {
+    background-color: white;
+    width: 370px;
+    height: 580px;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+div#container > img#hero {
+    display: block;
+    margin: auto;
+    width: 370px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+div#container > p {
+    color: #8F92A6;
+    display: block;
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    line-height: 25px;
+}
+
+div#plan {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: inline-flex;
+    flex-direction: row;
+    width: 300px;
+    margin: 20px 0px;
+    background-color: #F8F9FE;
+    border-radius: 15px;
+}
+
+div#plan > img#music {
+    padding: 20px 0px 20px 20px;
+    width: 2.5em;
+}
+
+div#plan > p {
+    margin: 0px;
+}
+
+div#plan a {
+    display: block;
+    margin: 0px;
+    padding: 31px 0px 0px 60px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #382AE1;
+}
+
+div#plan a:hover {
+    color: #766cf1;
+}
+
+div#plan-price {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+div#plan-price h2 {
+    font-size: 1em;
+    margin: 18px 0px 0px 15px;
+    color: #132042;
+}
+
+div#plan-price p {
+    line-height: 0px;
+    margin: 18px 0px 0px 15px;
+    color: #8F92A6;
+}
+
+div#container > a#payment > button {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 40px;
+    border-radius: 12px;
+    border-color: transparent;
+    display: block;
+    margin: auto;
+    background-color: #382AE1;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 10px 15px #392ae149;
+}
+
+div#container > a#payment > button:hover {
+    background-color: #766cf1
+}
+
+div#container > a#cancel > button {
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    display: block;
+    margin: auto;
+    color: #8F92A6;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+div#container > a#cancel > button:hover {
+    color: #132042;
+}

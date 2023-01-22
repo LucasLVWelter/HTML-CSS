@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+.attribution {
+    position: absolute;
+    left: 50%;
+    top: 98%;
+    transform: translate(-50%, -50%);
+    font-size: 11px; 
+    text-align: center; 
+    color: white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    height: 94vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0D1A2D;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+h1 > a {
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+h1 > a:hover {
+    color: #00FFF8;
+}
+
+hr {
+    border: none;
+    margin: 0px;
+    height: 1px;
+    background-color: #405066;
+}
+
+p {
+    color: #7591b8;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+div#container {
+    width: 260px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #15273F;
+    text-align: justify;
+    box-shadow: 0px 5px 8px 15px #0c1729;;
+}
+
+div#container > p {
+    line-height: 1.4em;
+    font-size: 0.9em;
+}
+
+div#container > div#img-eth > a > img {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+div#container > div#img-eth >  a > img:hover {
+    opacity: 0%;
+}
+
+div#container > div#img-eth {
+    display: inline-flex;
+    width: 260px;
+    height: 260px;
+}
+
+div#container > div#img-eth > a {
+    position: absolute;
+}
+
+div#container > div#img-eth > div#img-eth-active {
+    width: 260px;
+    height: 260px;
+    background-color: #00fff785;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 30.8%;
+    transform: translate(-50%, -50%); 
+}
+
+div#container > div#img-eth > div#img-eth-active > a {
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%); 
+}
+
+div#container > div#img-eth > div#img-eth-background > img{
+    width: 260px;
+    height: 260px;
+    border-radius: 15px;
+}
+
+div#ammount-time {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+div#ammount-time p {
+    padding-bottom: 15px;
+    font-size: 0.9em;
+}
+
+div#ammount-time > p#ammount {
+    padding-right: 88px;
+    color: #00FFF8;
+    font-weight: bold;
+}
+
+div#ammount-time > img#icon-eth {
+    width: 0.7em;
+    height: 1.2em;
+    padding-right: 5px;
+}
+
+div#ammount-time > img#icon-clock {
+    width: 1em;
+    height: 1.1em;
+    padding-right: 5px;
+}
+
+div#credits {
+    display: inline-flex;
+    padding-top: 15px;
+}
+
+div#credits > img {
+    width: 28px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+
+div#credits > p {
+    padding: 0px 0px 0px 15px;
+    margin: auto;
+    font-size: 0.9em;
+}
+
+div#credits > p > a {
+    color: white;
+    text-decoration: none;
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+div#credits > p > a:hover {
+    color: #00FFF8;
+}

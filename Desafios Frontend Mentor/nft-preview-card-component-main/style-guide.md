@@ -1,3 +1,4 @@
+@@ -1,33 +0,0 @@
 # Front-end Style Guide
 
 ## Layout

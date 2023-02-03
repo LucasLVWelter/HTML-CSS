@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.attribution { 
+    font-size: 11px; 
+    width: fit-content;
+    position: absolute;
+    top: 98.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body, html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: #F3EBE4;
+}
+
+h1, p {
+    padding: 0px 30px;
+}
+
+main {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 400px;
+    height: 610px;
+    background-color: white;
+
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
+}
+
+main > div#imagem {
+    height: 45.8%;
+    background: white url(../images/image-product-mobile.jpg) no-repeat fixed;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main > p#perfume {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: monospace;
+    font-size: 1.2em;
+    color: gray;
+    padding-top: 30px;
+    margin: 0px;
+}
+
+main > h1#nome {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 10px 30px;
+}
+
+main > p#descricao {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    line-height: 25px;
+}
+
+main > div#preco {
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+main > div#preco > p#c-desconto {
+    padding-right: 20px;
+    margin: 0px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #3D8168;
+}
+
+main > div#preco > p#s-desconto {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+    color: gray;
+    text-decoration: line-through;
+    font-size: 0.9em;
+}
+
+main > a {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #3D8168;
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+main > a:hover {
+    background-color: #183128;
+}
+
+main > a > p {
+    margin: 0px;
+    position: absolute;
+    top: 94%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main > a > p > img {
+    padding-right: 5px;
+}

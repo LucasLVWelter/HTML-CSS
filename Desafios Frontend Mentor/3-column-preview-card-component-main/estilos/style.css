@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    --fonte1: 'Big Shoulders Display', cursive;
+    --fonte2: 'Quicksand', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section {
+    width: 190px;
+    padding: 35px 35px 0px  35px;
+}
+
+main > section > h1 {
+    font-family: var(--fonte1);
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px 0px ;
+}
+
+main > section > p {
+    font-family: var(--fonte2);
+    font-size: 0.8em;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 15px;
+}
+
+main > section > input.botao {
+    width: 115px;
+    height: 40px;
+    font-family: var(--fonte2);
+    font-weight: bold;
+    margin-bottom: 35px;
+    border: 0px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input#botao-laran {
+    color: #E38525;
+}
+
+input#botao-laran:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+input#botao-azul {
+    color: #016871;
+}
+
+input#botao-azul:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+input#botao-verde {
+    color: #003F3E;
+}
+
+input#botao-verde:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+section#card-laran {
+    background-color: #E38525;
+    border-radius: 8px 8px 0px 0px;
+}
+
+section#card-azul {
+    background-color: #016871;
+}
+
+section#card-verde {
+    background-color: #003F3E;
+    border-radius: 0px 0px 8px 8px;
+}

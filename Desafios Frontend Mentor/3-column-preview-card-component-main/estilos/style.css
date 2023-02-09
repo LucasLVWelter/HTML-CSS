@@ -54,7 +54,10 @@ main > section > input.botao {
     margin-bottom: 35px;
     border: 0px solid transparent;
     border-radius: 20px;
+    box-sizing: border-box;
     cursor: pointer;
+    transition: all .3s;
+    transition-timing-function: ease;
 }
 
 input#botao-laran {

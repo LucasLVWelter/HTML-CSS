@@ -1,1 +1,24 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    main {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    main > section {
+        width: 172px;
+    }
+
+    section#card-laran {
+        border-radius: 8px 0px 0px 8px;
+    }
+
+    section#card-verde {
+        border-radius: 0px 8px 8px 0px;
+    }
+
+    .botao {
+        margin-top: 55px;
+    }
+}

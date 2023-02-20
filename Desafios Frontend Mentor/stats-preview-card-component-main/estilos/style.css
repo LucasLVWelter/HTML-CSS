@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 1300px;
+    background-color: #0A0C1B;
+}
+
+#container {
+    width: 475px;
+    height: fit-content;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1C1937;
+}
+
+#color {
+    width: 475px;
+    height: 352px;
+    border-radius: 8px 8px 0px 0px;
+    background-color: rgba(87, 0, 128, 0.514);
+    position: absolute;
+    z-index: 2;
+}
+
+#img {
+    width: 480px;
+    height: 352px;
+    background: white url(../images/image-header-mobile.jpg) no-repeat;
+    background-size: contain;
+    position: relative;
+    z-index: 1;
+}
+
+#text {
+    text-align: center;
+    padding: 55px 40px;
+}
+
+#text > h1 {
+    font-size: 2.4em;
+    color: white;
+    padding: 0px 20px;
+}
+
+#text > h1 > span {
+    color: #9662ca;
+}
+
+#text > p {
+    padding: 20px 25px 0px 25px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#ammounts {
+    padding-top: 20px;
+    font-size: 1em;
+    letter-spacing: 3px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: uppercase;
+}
+
+#ammounts h1 {
+    padding: 40px 0px 10px 0px;
+    font-size: 2.3em;
+    color: white;
+}
